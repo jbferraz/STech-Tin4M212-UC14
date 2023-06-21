@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>Aula 03 - Formatação e IMG</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Está página é um exemplo de HTML básica e focado na formatação de texto">
+		<meta name="keywords" content="html, formatação de texto, aula">
+		<meta name="author" content="Prof. Jair Ferraz">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body>
+		<a href="../index.html">Voltar</a>
+		<div>
+			<h1>Aula 3</h1>
+			<h2>Formatação de Texto</h2>
+			<p>
+				<strong>Mussum</strong> <em>Ipsum</em>, cacilds vidis litro <del>abertis</del>. Aenean aliquam molestie leo, vitae iaculis nisl.Suco de <ins>cevadiss</ins>, é um <sup>leite</sup> divinis, qui tem lupuliz, matis, aguis e fermentis.Copo furadis é disculpa de bebadis, arcu quam euismod magna.Paisis, filhis, espiritis <sub>santis</sub>.
+
+				Aenean aliquam molestie leo, vitae iaculis nisl.Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose.In elementis mé pra quem é amistosis quis leo.Nec orci ornare consequat. Praesent lacinia ultrices consectetur. Sed non ipsum felis.
+				<strong>Negrito</strong><br>
+				<em>Italico</em><br>
+				<del>Deletado</del><br>
+				<ins>Sublinhado</ins><br>
+				Superior m<sup>2</sup><br>
+				Nota de Texto <sub>Subscrito</sub><br>
+			</p>
+			<h2>Imagens</h2>
+			<h3>Tag IMG</h3>
+			<img src="img/senac_logo_new_gr.png"
+				alt="Logo do Senac RS"
+				title="Logo">
+			<img src="img/senac_logo_new_gr.png"
+				alt="Logo do Senac RS largura 50%"
+				title="Logo 50%"
+				width="50%"
+				height="auto">
+			<h3>Tag Picture</h3>
+			<picture>
+				<source media="(min-width:650px)"
+					srcset="img/img_pink_flowers.jpg">
+				<source media="(min-width:465px)"
+					srcset="img/img_white_flower.jpg">
+				<img src="img/img_orange_flowers.jpg"
+					alt="Flores coloridas"
+					title="Flores">
+			</picture>
+		</div>
+	</body>
+</html>
